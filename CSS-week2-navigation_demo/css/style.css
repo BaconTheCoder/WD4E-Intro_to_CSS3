@@ -1,22 +1,23 @@
-/* main {
+main {
   min-height: 100px;
-} */
-
-/* nav a {
+}
+nav a {
   text-decoration: none;
-} */
+  background-color:yellow;
+}
 
-/* li {
-  background-color: yellow;
-} */
+ul{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 
-/* ul {
+li{
   list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-} */
+}
 
-/* .current {
+
+.current{
   text-transform: uppercase;
-  background-color: lightgray;
-} */
+  border-bottom: 2px solid black;
+}
